@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+input{
+  border-radius: 20px;
+  font-size: 24px
+}
+label{
+  font-size: 25px;
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  color: rgb(10, 10, 0);
+}
+h1{
+  color: #053f4e;
+  text-align: center;
+}
+.maindiv{
+  text-align: center;
+  border: 10px solid blueviolet;
+  background-image:url( "https://th.bing.com/th/id/OIP.hL605XYoeHNvD2Y3PZrRdAHaEK?pid=ImgDet&w=474&h=266&rs=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button{
+  border: 5px solid green;
+  border-radius: 10px;
+  color:black;
+  background-color: lime;
+
+}
+input:hover{
+ box-shadow: lime;
+}
+#ld{
+  padding: 20px;
+  background-color: #61dafb;
+  
+}
+tbody{
+  border:5px solid rgb(40, 175, 137);
+}
+th{
+  padding: 10px;
+  border: 4px solid rgb(97, 217, 27);
+}
+table{
+  border: 4px solid rgb(51, 201, 18);
+}
+td{
+  border: 4px solid rgb(167, 219, 11);
+}
